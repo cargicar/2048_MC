@@ -10,7 +10,7 @@ A Reinforcement Learning Monte Carlo agent that solve the popular 2048 game in l
 
 # Reinforcement Learning Method of Choice
 
-At first I tried to solve the game by using a deep-Q learning architecture, similar to the one employed by deepmind to solve the atari games. But on one hand, it was very hard to tune, because it requires at least four hyperparameters (the epsilon for the epsilon-greedy policy, batch size for the replay buffer, the number of frames for updating the policy, the number of frames to increase greedines). On the other hand, it takes a long time to train (each single experiment I did took at least one hour using a Tesla GPU from google computing cloud) and lastly, requires some Reward Enginering, which is perhaps the hardest part and the results are greatly dependent (and in my opinion fairly inconsisten) on the reward choice. 
+At first I tried to solve the game by using a deep-Q learning architecture, similar to the one employed by deepmind to solve the atari games. But on one hand, it was very hard to tune, because it requires at least four hyperparameters (the epsilon for the epsilon-greedy policy, batch size for the replay buffer, the number of frames for updating the policy, the number of frames to increase greedines). On the other hand, it takes a long time to train (each single experiment I did took at least one hour using a Tesla GPU from google computing cloud) and lastly, requires some Reward Engineering, which is perhaps the hardest part and the results are greatly dependent (and in my opinion fairly inconsisten) on the reward choice. 
 
 ## Monte Carlo Tree Search
 
