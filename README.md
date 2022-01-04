@@ -2,7 +2,7 @@
 
 A Reinforcement Learning Monte Carlo agent that solve the popular 2048 game in less than a minute without even training requiered.
  
- https://github.com/cargicar/2048_MC/blob/main/2048_short.gif
+ ![Alt Text]( https://github.com/cargicar/2048_MC/blob/main/2048_short.gif)
 
 # Game description
 
