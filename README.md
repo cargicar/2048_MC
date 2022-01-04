@@ -1,9 +1,9 @@
 # 2048_MC
 
 A Reinforcement Learning Monte Carlo agent that solve the popular 2048 game in less than a minute without even training requiered.
- <p align = "center">
+
  ![Alt Text](https://github.com/cargicar/2048_MC/blob/main/2048_short.gif)
-</p>
+
 # Game description
 
 2048 is a single-player board game popularized on cell phone in recent years. The game mechanics is as follows: Start with an 4x4 almost empty board, with two random positions on the board being occupied each by the number 2 (or with a smaller porbability a number 4). The gamer can slide a tile in four directions (up, down, left, right) and doing so will slide the whole board to that side. If the two slides containing the same number collide, they can merge into one containing the sum of them both. The name of the name implies that a gamer wins when it reach a merger equal to 2048. In reality, you can keep merging even after getting 2048 and I am unaware of what is the upper limit number for the game, but I guess will be very large, if any. The game ends when there are not allowed slides, which means that there is neither, empty tiles (or with zero value) neither near-neighbors with the same value.
