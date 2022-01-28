@@ -22,5 +22,9 @@ A jupyter notebook is added which use the above mentioned environment and let us
 
 Have fun learning to play 2048 from a machine :P (At least it plays way better than me ).
 
+Below a picture of a 16 min run (including the time for rendering, which takes most of the time unfortunately):
+
+![Alt Text](https://github.com/cargicar/2048_MC/blob/main/frame_3321.JPG)
+
 
 
